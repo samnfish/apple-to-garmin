@@ -122,6 +122,7 @@ But why not just export all data for all devices?
 
 8. **Upload to Garmin Connect**
     - Use the [Garmin Connect web uploader](https://connect.garmin.com/modern/import-data) to import the finished file
+    - Again, ensure you choose the correct measurment type, i.e. Statute or Metric, depending if your Apple Health distance metric was stored as Miles or KM
 
 ---
 
