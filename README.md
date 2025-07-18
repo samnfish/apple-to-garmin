@@ -10,7 +10,7 @@ This repo contains Python scripts to help migrate your weight, step count and di
   I first imported all my workouts using [RunGap](https://www.rungap.com/) before running these scripts
     - For any Step and Distance data imported *after* the date of your first recorded workout, you may see **large negative calorie numbers** for those dates in Garmin Connect
     - Unsure how to fix or why this happens at this time. Perhaps someone can try importing one day while adjusting the calorie columns for that date and see how Garmin behaves with the adjusted values
-- **The scripts are mostly generate with AI. Do what you will with this information**
+- **The scripts are mostly generated with AI. Do what you will with this information**
 
 ---
 
@@ -19,9 +19,9 @@ This repo contains Python scripts to help migrate your weight, step count and di
 These scripts parse your Apple Health data (`export.xml`) and prepare it for upload to Garmin Connect
 
 **Supports:**
+- Weight
 - Steps
 - Distance
-- Weight
 
 ---
 
