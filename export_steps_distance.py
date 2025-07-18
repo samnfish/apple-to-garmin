@@ -88,7 +88,7 @@ else:
     exit(1)
 
 # Optional max date limit
-max_date_input = input("\n  Enter the date you want data exported UP TO in YYYYMMDD format. You likely want a recent date. (or press Enter to skip): ").strip()
+max_date_input = input("\nEnter the date you want data exported UP TO in YYYYMMDD format. You likely want a recent date. (or press Enter to skip): ").strip()
 try:
     MAX_DATE_UTC = datetime.strptime(max_date_input, "%Y%m%d") if max_date_input else None
 except ValueError:
@@ -110,7 +110,7 @@ print("\nAvailable Devices:")
 for idx, device in enumerate(all_devices, 1):
     print(f"{idx}: {device}")
 
-print("\n Select device(s) and optional date ranges (YYYYMMDD)")
+print("\nSelect device(s) and optional date ranges (YYYYMMDD)")
 print("Format: index-startdate-enddate, or just index (e.g., 1-20200101-20240101,3)")
 print(f"If you omit an end date, it will default to {MAX_DATE_UTC.date() if MAX_DATE_UTC else 'no limit'}")
 selection_input = input("Your selection: ")
