@@ -20,6 +20,7 @@ These scripts parse your Apple Health data (`export.xml`) and prepare it for upl
 
 **Supports:**
 - Weight
+- BMI
 - Steps
 - Distance
 
@@ -43,7 +44,8 @@ These scripts parse your Apple Health data (`export.xml`) and prepare it for upl
 
 ---
 
-## Usage Instructions for Migrating Weight Data
+## Usage Instructions for Migrating Weight and BMI Data
+### **Disclaimer: This script cannot take into account changing heights**
 
 To migrate your Apple Health weight data:
 
